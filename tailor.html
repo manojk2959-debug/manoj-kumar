@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Royal Stitch Tailors</title>
+
+    <link rel="stylesheet" href="tailor.css">
+
+</head>
+
+<body>
+
+    <!-- =========================
+         HEADER
+    ========================== -->
+
+    <header>
+
+        <nav>
+
+            <h1>Royal Stitch Tailors</h1>
+
+            <ul>
+
+                <li><a href="#home">Home</a></li>
+
+                <li><a href="#about">About</a></li>
+
+                <li><a href="#services">Services</a></li>
+
+                <li><a href="#gallery">Gallery</a></li>
+
+                <li><a href="#contact">Contact</a></li>
+
+            </ul>
+
+            <button id="themeBtn">☀️</button>
+
+
+        </nav>
+
+    </header>
+
+
+    <!-- =========================
+         HOME
+    ========================== -->
+
+    <section id="home">
+
+        <div>
+
+            <p>Welcome to Royal Stitch Tailors</p>
+
+            <h2>Perfect Fit, Timeless Style</h2>
+
+            <p>
+                We create custom-made clothes with excellent fitting,
+                quality stitching and attention to every detail.
+            </p>
+
+            <a href="#contact">Book an Appointment</a>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         ABOUT
+    ========================== -->
+
+    <section id="about">
+
+        <div>
+
+            <p>About Royal Stitch Tailors</p>
+
+            <h2>Crafted With Skill & Passion</h2>
+
+            <p>
+                Royal Stitch Tailors is dedicated to creating stylish,
+                comfortable and perfectly fitted clothing for every customer.
+            </p>
+
+            <p>
+                From traditional outfits to modern formal wear,
+                we focus on quality stitching, clean finishing
+                and personalised designs.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         SERVICES
+    ========================== -->
+
+    <section id="services">
+
+        <div>
+
+            <p>What We Offer</p>
+
+            <h2>Our Tailoring Services</h2>
+
+            <div class="services-grid">
+
+                <div class="service-card">
+
+                    <h3>Shirt Stitching</h3>
+
+                    <p>
+                        Custom shirts designed according to your
+                        size and style.
+                    </p>
+
+                </div>
+
+
+                <div class="service-card">
+
+                    <h3>Pant Stitching</h3>
+
+                    <p>
+                        Comfortable and properly fitted pants
+                        for every occasion.
+                    </p>
+
+                </div>
+
+
+                <div class="service-card">
+
+                    <h3>Suit & Blazer</h3>
+
+                    <p>
+                        Elegant formal wear with a professional
+                        custom fit.
+                    </p>
+
+                </div>
+
+
+                <div class="service-card">
+
+                    <h3>Kurta & Traditional Wear</h3>
+
+                    <p>
+                        Traditional outfits with quality stitching
+                        and finishing.
+                    </p>
+
+                </div>
+
+
+                <div class="service-card">
+
+                    <h3>Alterations</h3>
+
+                    <p>
+                        Professional alterations to improve
+                        the fitting of your clothes.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         GALLERY
+    ========================== -->
+
+    <section id="gallery">
+
+        <div class="gallery-container">
+
+            <p>Our Work</p>
+
+            <h2>Our Tailoring Gallery</h2>
+
+            <p>
+                Take a look at some of our tailoring work
+                and custom designs.
+            </p>
+
+
+            <div class="gallery-grid">
+
+
+                <div class="gallery-item">
+
+                    <img src="image1.png" alt="Royal Stitch Tailors Shop">
+
+                    <h3>our work</h3>
+
+                </div>
+
+
+                <div class="gallery-item">
+
+                    <img src="image2.png" alt="Custom Tailored Suit">
+
+                    <h3>Custom blouse</h3>
+
+                </div>
+
+
+                <div class="gallery-item">
+
+                    <img src="image3.png" alt="Tailoring Work">
+
+                    <h3>Tailoring Work</h3>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         CONTACT
+    ========================== -->
+
+    <section id="contact">
+
+        <div>
+
+            <p>Get In Touch</p>
+
+            <h2>Book Your Appointment</h2>
+
+            <p>
+                Tell us what you need and we will get back to you soon.
+            </p>
+
+
+            <form action="https://formspree.io/f/moevkgvv" method="POST">
+
+                <label for="name">
+                    Your Name
+                </label>
+
+                <input type="text" id="name" name="name" placeholder="Enter Your Name" required>
+
+
+                <label for="phone">
+                    Phone Number
+                </label>
+
+                <input type="tel" id="phone" name="phone" placeholder="Enter Your Phone Number" required>
+
+
+                <label for="services">
+                    Choose Service
+                </label>
+
+                <select id="services" name="service" required>
+
+                    <option value="">
+                        Select a Service
+                    </option>
+
+                    <option value="Shirt Stitching">
+                        Shirt Stitching
+                    </option>
+
+                    <option value="Pant Stitching">
+                        Pant Stitching
+                    </option>
+
+                    <option value="Suit and Blazer">
+                        Suit & Blazer
+                    </option>
+
+                    <option value="Kurta and Traditional Wear">
+                        Kurta & Traditional Wear
+                    </option>
+
+                    <option value="Alterations">
+                        Alterations
+                    </option>
+
+                </select>
+
+
+                <label for="date">
+                    Preferred Date
+                </label>
+
+                <input type="date" id="date" name="date" required>
+
+
+                <label for="message">
+                    Your Message
+                </label>
+
+                <textarea id="message" name="message" placeholder="Tell us about your requirement" required></textarea>
+
+
+                <button type="submit">
+                    Book Appointment
+                </button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         SHOP CONTACT
+    ========================== -->
+
+    <section id="shop-contact">
+
+        <div>
+
+            <h2>Contact Royal Stitch Tailors</h2>
+
+            <p>📍 Address: Your Shop Address</p>
+
+            <p>📞 Phone: +91 XXXXX XXXXX</p>
+
+            <p>📧 Email: royalstitch@example.com</p>
+
+            <a href="tel:+91XXXXXXXXXX">
+                Call Us
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer>
+
+        <div>
+
+            <h2>Royal Stitch Tailors</h2>
+
+            <p>
+                Perfect fitting, quality stitching
+                and timeless style.
+            </p>
+
+            <p>
+                &copy; 2026 Royal Stitch Tailors.
+                All rights reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- JAVASCRIPT -->
+
+    <script src="tailor.js"></script>
+
+</body>
+
+</html>
